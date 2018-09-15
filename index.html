@@ -5,28 +5,38 @@
 	<title>Formulario</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">  <!-- Fuente de google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Pragati+Narrow:400,700" rel="stylesheet">  <!-- Fuente de google fonts -->
 </head>
 <body class="Body-Formularios">
-	<h1 class="titulo">Formulario</h1>
-	<div class="contenedor">
-		<div class="top_formulario">
+
+	<header>
+		<h1 class="titulo">FORMULARIO</h1>
+	</header>
+	
+	<div class="contenedor-InicioSesion">
+		<!-- <div class="top_formulario">
 			<h2>Inicio de sesion</h2>
-		</div>	
+		</div> -->
+			<h2>Inicio de sesion</h2>
 		<form name="IniciarSesion" method="post" action="tablas.html" class="IniciarSesion">
 
    			<label for="usuario">Usuario:</label>
 			<input type="text" name="usuario" id="usuario" maxlength="40" placeholder="Escribe tu usuario aqui"><br>
 
 			<label for="contraseña">Contraseña:</label>
-			<input type="password" name="contraseña" id="contraseña" maxlength="25" placeholder="Escribe tu contraseña aqui">
+			<input type="password" name="contraseña" id="contraseña2" maxlength="25" placeholder="Escribe tu contraseña aqui">
 
 			<div class="botones-del-formulario">
 				<input id="boton-iniciarSesion" type="submit" name="IniciarSesion" value="Iniciar Sesion">
 			</div>
 		</form>
-		<p>Aun no estas registrado?</p>
 	</div>
+	<div class="registrarse">	
+		<p>¿Aún no estás registrado?</p>
 
+		<div class="link-registro">
+			<a href="FormularioRegistro.html">Registrate aqui</a>
+		</div>
+	</div>
 </body>
 </html>

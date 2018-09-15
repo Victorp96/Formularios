@@ -28,29 +28,33 @@ table, td, tr{
 /*estilos para los formularios*/
 
 .Body-Formularios{
-font-family: Poor Story, cursive;
+font-family: 'Pragati Narrow', sans-serif;
 background-color: #7c0000;
 }
 
 .titulo{
 	text-align: center;
+	color: white;
 }
-.contenedor{
-	width: 500px;
-	height: 400px;
+.contenedor-InicioSesion{
+	width: 450px;
+	height: 350px;
 	background: red;
 	margin: auto;
 	padding-top: 20px;
 	background-color: #ffd3d9;
+	border-top: solid 10px #9b0f0f;
+	border-bottom: solid 10px #9b0f0f;
+	box-shadow: 1px 3px 3px black;
 }
-.top_formulario{
-	width: 100%;
+h2{
 	text-align: center;
-	padding: 5px 0 5px;
-	border-top: solid 10px #F39B53;
+	font-size: 35px;
+	color: #9b0f0f;
+	text-shadow: 1px 2px 4px #4c4c4c;
 }
 .IniciarSesion{
-	padding: 0 20px;
+	padding: 0 30px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -95,3 +99,128 @@ background-color: #7c0000;
 }
 
 	/*Boton de registro*/
+
+.registrarse p{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+a{
+	text-decoration:none;
+	color: white;
+}
+.link-registro {
+	text-align:center;
+	font-size: 25px;
+	width: 180px;
+	height: 40px;
+	background: linear-gradient(#7c0101, #3d0000);
+	padding-top: 15px;
+	margin: auto;
+	border-radius: 5px;
+}
+
+.link-registro{
+  transform: perspective(5px) translateZ(0);
+  box-shadow: 0 0 10px black;
+  transition-duration: 0.5s;
+}
+.link-registro:hover, .link-registro:focus .link-registro:active {
+  transform: scale(1.2);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+	/*Formulario de registro*/
+
+.contenedor-registro{
+	width: 450px;
+	height: 650px;
+	background: red;
+	margin: auto;
+	padding-top: 5px;
+	background-color: #ffd3d9;
+	border-top: solid 10px #9b0f0f;
+	border-bottom: solid 10px #9b0f0f;
+	box-shadow: 3px 3px 5px black;
+}
+
+.Registro{
+	padding: 0 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#nombre, #apellido, #cedula, #email, #contraseña2, #confirmacion{
+	background-color: #EFEFEF;
+	padding: 6px;
+	border: none;
+	border-bottom: solid #C8C8C8 4px;
+}
+label{
+	margin-top: 5px;
+}
+
+.genero{
+	display: inline-block;
+	margin-top: 5px;
+}
+
+/*efecto para el borde inferior en las cjas de texto*/
+#nombre:focus {
+	border-bottom: solid #9b0f0f 3px;
+}
+#apellido:focus {
+	border-bottom: solid #9b0f0f 3px;
+}
+#cedula:focus {
+	border-bottom: solid #9b0f0f 3px;
+}
+#email:focus {
+	border-bottom: solid #9b0f0f 3px;
+}
+#contraseña2:focus {
+	border-bottom: solid #9b0f0f 3px;
+}
+#confirmacion:focus {
+	border-bottom: solid #9b0f0f 3px;
+}
+
+	/*Botones del formulario de registro*/
+.contenedor-botones-registro{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+#boton-enviar-registro{
+	padding: 5px;
+	margin: 7px 0;
+	border: none;
+	transition: all .5s;
+}
+		#boton-enviar-registro{
+			width: 35%;
+			border-bottom: none;
+			background-color: #9b0f0f;
+			color: white
+		}
+				#boton-enviar-registro:hover {
+					background-color: #bc4b4b;
+				}
+
+#boton-reset{
+	padding: 5px;
+	margin: 7px 0;
+	border: none;
+	transition: all .5s;
+}
+		#boton-reset{
+			width: 35%;
+			border-bottom: none;
+			background-color: #9b470f;
+			color: white
+		}
+				#boton-reset:hover {
+					background-color: #bc7b4b;
+				}
