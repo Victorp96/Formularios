@@ -1,8 +1,11 @@
 /*Estilos para las tablas*/
+body{
+	background-color: #ffd3d9;
+}
 .Titulo-tablas{
 	text-align: center;
 	font-family:  Comic sans ms;
-	text-shadow: 3px 3px #0090ff;
+	text-shadow: 3px 3px #7c0000;
 	color: #ededed;
 }
 table{
@@ -10,14 +13,14 @@ table{
 	margin: auto;
 }
 table, td, tr{
-	border: 1px solid #006be5;
+	border: 1px solid #a01919;
 	border-collapse: collapse;
 	text-align: center;
 	font-family: Arial;
 }
 #encabezado{
 	text-align: center;
-	background: #0077ff;
+	background: #7c0000;
 	color: white;
 }
 .filaColor{
@@ -48,10 +51,11 @@ background-color: #7c0000;
 	box-shadow: 1px 3px 3px black;
 }
 h2{
+	font-family: 'Julius Sans One', sans-serif;
 	text-align: center;
 	font-size: 35px;
 	color: #9b0f0f;
-	text-shadow: 1px 2px 4px #4c4c4c;
+	text-shadow: 1px 2px 3px #4c4c4c;
 }
 .IniciarSesion{
 	padding: 0 30px;
@@ -134,7 +138,7 @@ a{
 
 .contenedor-registro{
 	width: 450px;
-	height: 650px;
+	height: 630px;
 	background: red;
 	margin: auto;
 	padding-top: 5px;
@@ -224,3 +228,8 @@ label{
 				#boton-reset:hover {
 					background-color: #bc7b4b;
 				}
+
+footer{
+	text-align: center;
+	color: white;
+}
