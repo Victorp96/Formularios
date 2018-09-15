@@ -55,6 +55,20 @@ background-color: #7c0000;
 	flex-direction: column;
 	justify-content: center;
 }
+ /*Cuadros de textos*/
+#usuario, #contraseña{
+	background-color: #EFEFEF;
+	padding: 5px;
+	border: none;
+	border-bottom: solid #C8C8C8 3px;
+}
+
+#usuario:focus {
+	border-bottom: solid #9b0f0f 3px;
+}
+#contraseña:focus {
+	border-bottom: solid #9b0f0f 3px;
+}
 
 /*Botones*/
 .botones-del-formulario{
@@ -63,17 +77,21 @@ background-color: #7c0000;
 	margin-top: 20px;
 }
 
+	/*Boton para iniciar sesion*/
 #boton-iniciarSesion{
-  font: bold 20px Poor Story, cursive;
-  border: 2px solid #ce3131;
-  border-radius: 5px;
-  background: #ce3131;
-  cursor: pointer;
-  color: white;
+	padding: 8px;
+	margin: 8px 0;
+	border: none;
+	transition: all .5s;
+}
+#boton-iniciarSesion {
+	width: 35%;
+	border-bottom: none;
+	background-color: #9b0f0f;
+	color: white
+}
+#boton-iniciarSesion:hover {
+	background-color: #bc4b4b;
 }
 
-#boton-iniciarSesion:hover,
-#boton-iniciarSesion:focus {
-  outline: none;
-  background: #ff8292;
-}
+	/*Boton de registro*/
