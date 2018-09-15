@@ -1,0 +1,79 @@
+/*Estilos para las tablas*/
+.Titulo-tablas{
+	text-align: center;
+	font-family:  Comic sans ms;
+	text-shadow: 3px 3px #0090ff;
+	color: #ededed;
+}
+table{
+	width: 30%;
+	margin: auto;
+}
+table, td, tr{
+	border: 1px solid #006be5;
+	border-collapse: collapse;
+	text-align: center;
+	font-family: Arial;
+}
+#encabezado{
+	text-align: center;
+	background: #0077ff;
+	color: white;
+}
+.filaColor{
+	padding: 4px;
+	background: #ededed;
+}
+
+/*estilos para los formularios*/
+
+.Body-Formularios{
+font-family: Poor Story, cursive;
+background-color: #7c0000;
+}
+
+.titulo{
+	text-align: center;
+}
+.contenedor{
+	width: 500px;
+	height: 400px;
+	background: red;
+	margin: auto;
+	padding-top: 20px;
+	background-color: #ffd3d9;
+}
+.top_formulario{
+	width: 100%;
+	text-align: center;
+	padding: 5px 0 5px;
+	border-top: solid 10px #F39B53;
+}
+.IniciarSesion{
+	padding: 0 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*Botones*/
+.botones-del-formulario{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+#boton-iniciarSesion{
+  font: bold 20px Poor Story, cursive;
+  border: 2px solid #ce3131;
+  border-radius: 5px;
+  background: #ce3131;
+  cursor: pointer;
+  color: white;
+}
+
+#boton-iniciarSesion:hover,
+#boton-iniciarSesion:focus {
+  outline: none;
+  background: #ff8292;
+}
